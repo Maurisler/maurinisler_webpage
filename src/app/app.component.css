@@ -1,0 +1,22 @@
+button{
+  width: 20em;
+  height: 5em;
+  border-width: .375em;
+  border-radius: .5em;
+  border-color: turquoise;
+  background-color: transparent;
+  border-style: solid;
+}
+
+.button-text{
+  font-size: 2em;
+  font-family: "Saira Stencil One", Impact, sans-serif;
+  color: turquoise;
+}
+
+button:active{ /*Button turns white when pressed*/
+  border-color: white;
+  .button-text{
+    color: white;
+  }
+}
